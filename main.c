@@ -131,6 +131,36 @@ void desencriptar(){
     system( "pause" );
 }
 
+void eliminarCaracteres(){
+    char cadena[]= "Sogamoso Ciudad del Sol y del Acero", carac[5];
+    int indCadena=0, indCadL=0;
+    int agregarCaracteer= 1;
+    printf(cadena);
+    printf("\nIngrese el caracter a borrar");
+    scanf("%s", carac);
+
+    while (cadena[indCadena]){
+        agregarCaracteer=1;
+        int indCaracter=0;
+        while (carac[indCaracter]){
+            if (cadena[indCadena] == carac[indCaracter]){
+                agregarCaracteer=0;
+            }
+            indCaracter++;
+        }
+        if (agregarCaracteer){
+            cadena[indCadL]= cadena[indCadena];
+            indCadL++;
+        }
+        indCadena++;
+    }
+    cadena[indCadL]=0;
+
+    printf(cadena);
+    system("pause");
+
+}
+
 int main() {
 
     int op=0;
@@ -173,6 +203,7 @@ int main() {
                 break;
 
             case 6:
+                eliminarCaracteres();
                 break;
 
             case 7:
