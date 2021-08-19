@@ -160,6 +160,39 @@ void eliminarCaracteres(){
     system("pause");
 
 }
+void llenarCaracteres(char fuente1[], char fuente2[], int cant, int dire, char destino[]){
+    int i= 0, j = 0;
+    char letra[244];
+    while (cant>1) {
+        printf("%s", fuente2);
+        --cant;
+    }
+
+    if (dire== 1){
+
+        while (fuente2[i] != '\0'){
+            destino[i]= fuente2[i];
+            i++;
+        } while (fuente1[j] != '\0'){
+            destino[i+j]= fuente1[j];
+            j++;
+        }
+        destino[i+j]= '\0';
+    }
+    if (dire==2){
+
+        while (fuente1[i] != '\0'){
+            destino[i]= fuente1[i];
+            i++;
+        } while (letra[j] != '\0'){
+            destino[i+j]= letra[j];
+            j++;
+
+        }
+        destino[i+j]= '\0';
+    }
+    system("pause");
+}
 
 int main() {
 
@@ -200,6 +233,19 @@ int main() {
                 break;
 
             case 5:
+                char cadena[255], letras[55], cadenaFinal[255], aux[255];
+                int cantidad=0, direccion=0;
+                void llenarCaracteres(char fuente1[], char fuente2[], int can, int dire, char destino[]);
+                printf("Ingrese la cadena de texto");
+                scanf("%s", &cadena);
+                printf("Ingrese el caracter a insertar");
+                scanf("%s", &letras);
+                printf("Ingrese direccion 1. Izquierda  2. Derecha");
+                scanf("%d", &direccion);
+                printf("Ingrese la cantidad de caracteres");
+                scanf("%d", &cantidad);
+                llenarCaracteres(cadena, letras, cantidad, direccion, cadenaFinal);
+                printf("%s" , cadenaFinal);
                 break;
 
             case 6:
