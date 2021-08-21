@@ -1,3 +1,3 @@
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Documentos/UPTC/4to/Progra3/C/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir
+D:/Documentos/UPTC/4to/Progra3/C/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documentos/UPTC/4to/Progra3/C/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
