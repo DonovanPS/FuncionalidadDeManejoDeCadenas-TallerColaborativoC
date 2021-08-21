@@ -235,7 +235,6 @@ int main() {
             case 5:
                 char cadena[255], letras[55], cadenaFinal[255], aux[255];
                 int cantidad=0, direccion=0;
-                void llenarCaracteres(char fuente1[], char fuente2[], int can, int dire, char destino[]);
                 printf("Ingrese la cadena de texto");
                 scanf("%s", &cadena);
                 printf("Ingrese el caracter a insertar");
