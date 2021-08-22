@@ -197,6 +197,15 @@ void llenarCaracteres(char fuente1[], char fuente2[], int cant, int dire, char d
     system("pause");
 }
 
+void insersion(char cadena1[255], char cadena2[255]){
+    char aux[255]= "";
+    int sizeCadena2 = strlen(cadena2);
+    for (int i = 0; i < sizeCadena2; ++i) {
+        if (cadena2[i]==cadena1[i]){
+            aux[255] += cadena2[i];
+        }
+    }
+}
 char *diferenciaCadenas(char cadena1[], char cadena2[]) {
     int sizeCadena1 = strlen(cadena1);
     int sizeCadena2 = strlen(cadena2);
@@ -317,6 +326,13 @@ int main() {
                 eliminarCaracteres();
                 break;
             case 7:
+                char cadena1[255], cadena2[255] ,cadenaFinal[255];
+                printf("Ingrese la primera cadena: ");
+                scanf("%s", &cadena1);
+                printf("Ingrese la segunda cadena: ");
+                scanf("%s", &cadena2);
+                insersion(cadena1, cadena2);
+                printf("s%" , cadenaFinal);
                 break;
             case 8:
                 // Diferencia de 2 cadenas
