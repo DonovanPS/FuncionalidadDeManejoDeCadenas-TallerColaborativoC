@@ -386,9 +386,9 @@ int main() {
                 // Diferencia de 2 cadenas
                 char cadena1[255], cadena2[255];
                 printf("Ingrese la primera cadena: ");
-                gets(cadena1, 255, stdin);
+                gets(cadena1);
                 printf("Ingrese la segunda cadena: ");
-                gets(cadena2, 255, stdin);
+                gets(cadena2);
                 char *result = diferenciaCadenas(strlwr(cadena1), strlwr(cadena2));
                 printf("%s", result);
                 break;
@@ -397,9 +397,9 @@ int main() {
                 char primerCadena[255], segundaCadena[255];
                 int orientacion = 0;
                 printf("Ingrese la primera cadena: ");
-                gets("%s", primerCadena);
+                gets(primerCadena);
                 printf("Ingrese la segunda Cadena: ");
-                gets("%s", segundaCadena);
+                gets(segundaCadena);
                 printf("1. Por IZQUIERDA | 2. Por DERECHA: ");
                 scanf("%d", &orientacion);
                 char *resultado = borrarCaracteres(strlwr(primerCadena), strlwr(segundaCadena), orientacion);
