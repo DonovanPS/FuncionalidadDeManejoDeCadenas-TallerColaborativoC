@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC
+CMAKE_SOURCE_DIR = C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/depend.make
@@ -77,16 +77,16 @@ include CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/flags.
 
 CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj: CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/flags.make
 CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.obj -c C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.obj -c C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c
 
 CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c > CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c > CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.i
 
 CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c -o CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\main.c -o CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\main.c.s
 
 # Object files for target FuncionalidadDeManejoDeCadenas_TallerColaborativoC
 FuncionalidadDeManejoDeCadenas_TallerColaborativoC_OBJECTS = \
@@ -100,7 +100,7 @@ FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe: CMakeFiles/Funcionalidad
 FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe: CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/linklibs.rsp
 FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe: CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/objects1.rsp
 FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe: CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable FuncionalidadDeManejoDeCadenas_TallerColaborativoC.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/clean:
 .PHONY : CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/clean
 
 CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug C:\Users\donov\CLionProjects\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug C:\Users\donov\Downloads\Programs\FuncionalidadDeManejoDeCadenas-TallerColaborativoC\cmake-build-debug\CMakeFiles\FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/depend
 

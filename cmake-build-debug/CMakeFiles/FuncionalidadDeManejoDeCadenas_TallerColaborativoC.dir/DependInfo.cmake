@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/main.c" "C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj"
+  "C:/Users/donov/Downloads/Programs/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/main.c" "C:/Users/donov/Downloads/Programs/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
