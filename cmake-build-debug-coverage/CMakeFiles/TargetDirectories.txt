@@ -1,3 +1,0 @@
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug-coverage/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
-C:/Users/donov/CLionProjects/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
