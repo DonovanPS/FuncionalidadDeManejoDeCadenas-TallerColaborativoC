@@ -131,14 +131,10 @@ void desencriptar() {
     system("pause");
 }
 
-void eliminarCaracteres() {
-    char cadena[] = "Sogamoso Ciudad del Sol y del Acero", carac[5];
+void eliminarCaracteres(char cadena[255], char caracter[1]) {
+
     int indCadena = 0, indCadL = 0;
     int agregarCaracteer = 1;
-    printf(cadena);
-    printf("\nIngrese el caracter a borrar");
-    scanf("%s", carac);
-
     while (cadena[indCadena]) {
         agregarCaracteer = 1;
         int indCaracter = 0;
@@ -197,15 +193,60 @@ void llenarCaracteres(char fuente1[], char fuente2[], int cant, int dire, char d
     system("pause");
 }
 
-void insersion(char cadena1[255], char cadena2[255]){
-    char aux[255]= "";
-    int sizeCadena2 = strlen(cadena2);
-    for (int i = 0; i < sizeCadena2; ++i) {
-        if (cadena2[i]==cadena1[i]){
-            aux[255] += cadena2[i];
+char *interseccion(char cadena[], char cadena2[]){
+    int tamano1,tamano2,cont=0,contador=0;
+    char aux[255], aux2[255];
+    char *cadenaSalida="";
+
+    tamano2= strlen(cadena2);
+    for (int i = tamano2-1; i >= 0; --i) {
+        for (int j = 0; j <tamano2-1; ++j) {
+            if (cadena2[i]==cadena2[j]){
+                cont++;
+            }
+        }
+        if (cont>1){
+            memset(aux,0,255);
+            memset(aux2,0,255);
+
+            for (int j = i+1; j < tamano2-1; ++j) {
+                aux[contador]=cadena2[j];
+                contador++;
+            }
+            contador=0;
+            for (int j = 0; j < i; ++j) {
+                aux2[j]=cadena2[j];
+            }
+            memset(cadena2,0,255);
+            strcat(strcpy(cadena2, aux2), aux);
+
+            tamano2= strlen(cadena2);
+        }
+        cont=0;
+    }
+
+    tamano1= strlen(cadena);
+    tamano2= strlen(cadena2);
+    memset(aux,0,255);
+    cont=0;
+    contador=0;
+    for (int i = 0; i < tamano2; ++i) {
+        for (int j = 0; j < tamano1; ++j) {
+            if (cadena2[i]==cadena[j]){
+                cont++;
+            }
+        }
+        if (cont>0){
+            aux[contador]=cadena2[i];
+            contador++;
+            cont=0;
         }
     }
+
+    cadenaSalida=aux;
+    return cadenaSalida;
 }
+
 char *diferenciaCadenas(char cadena1[], char cadena2[]) {
     int sizeCadena1 = strlen(cadena1);
     int sizeCadena2 = strlen(cadena2);
@@ -311,28 +352,35 @@ int main() {
                 char cadena[255], letras[55], cadenaFinal[255], aux[255];
                 int cantidad = 0, direccion = 0;
                 void llenarCaracteres(char fuente1[], char fuente2[], int can, int dire, char destino[]);
-                printf("Ingrese la cadena de texto");
+                printf("\n>>Llenar Caracteres<<"
+                       "\n Ingrese la cadena de texto");
                 scanf("%s", &cadena);
-                printf("Ingrese el caracter a insertar");
+                printf("\n Ingrese el caracter a insertar");
                 scanf("%s", &letras);
-                printf("Ingrese direccion 1. Izquierda  2. Derecha");
+                printf("\n Ingrese direccion 1. Izquierda  2. Derecha");
                 scanf("%d", &direccion);
-                printf("Ingrese la cantidad de caracteres");
+                printf("\n Ingrese la cantidad de caracteres");
                 scanf("%d", &cantidad);
                 llenarCaracteres(cadena, letras, cantidad, direccion, cadenaFinal);
                 printf("%s", cadenaFinal);
                 break;
             case 6:
-                eliminarCaracteres();
+                char cadena[255], caracter[1];
+                printf("\n>>Eliminar un caracter de una cadena"
+                       "<<" "\nIngrese el cadena");
+                scanf("%s", cadena);
+                printf("\nIngrese el caracter a borrar");
+                scanf("%s", caracter);
+                eliminarCaracteres(cadena, caracter);
                 break;
             case 7:
-                char cadena1[255], cadena2[255] ,cadenaFinal[255];
-                printf("Ingrese la primera cadena: ");
-                scanf("%s", &cadena1);
-                printf("Ingrese la segunda cadena: ");
-                scanf("%s", &cadena2);
-                insersion(cadena1, cadena2);
-                printf("s%" , cadenaFinal);
+                char cadena7[255],cadena27[255];
+                printf("\n>>Diferencia entre dos cadenas<<"
+                       "\nIngrese la primera cadena");
+                fgets(cadena7,255,stdin);
+                printf("\nIngrese la cadena de texto dos...");
+                fgets(cadena27,255,stdin);
+                printf("\nLa Interseccion es es: %s \n",interseccion(cadena7,cadena27));
                 break;
             case 8:
                 // Diferencia de 2 cadenas
