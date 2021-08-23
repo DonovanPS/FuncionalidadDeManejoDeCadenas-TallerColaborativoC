@@ -1,0 +1,3 @@
+F:/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/FuncionalidadDeManejoDeCadenas_TallerColaborativoC.dir
+F:/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/FuncionalidadDeManejoDeCadenas-TallerColaborativoC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
